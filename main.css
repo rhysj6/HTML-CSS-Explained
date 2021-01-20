@@ -88,9 +88,12 @@ p{
     left: 285px;
     border-radius: 25px;
 }
-.main p:hover{
+.main h1:hover, p:hover{
     background-color: var(--primary);
     border-radius: 25px;
+}
+.main h1{
+    padding-left: 20px; ;
 }
 .main p{
     padding-left: 25px;
