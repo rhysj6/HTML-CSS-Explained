@@ -1,0 +1,127 @@
+:root{
+    --bg:#131313;
+    --bgAlt:#191919;
+    --primary:#2a008d8a;
+    --primaryAlt:#2a008d;
+    --onBG:rgb(220, 220, 220);
+    
+
+}
+body{
+    background-color: var(--bg);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+h1{
+    font-size: 3.4vmin;
+    color: var(--onBG);
+}
+h2{
+    font-size: 3vmin;
+    color: var(--onBG);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+   }
+.title{
+    text-align: center;
+    color: var(--onBG);
+}
+.siteTitle{
+    padding-left: 1vmin;
+    text-align: left;
+    color: var(--onBG);
+}
+p{
+    color: var(--onBG);
+    overflow-wrap: normal;
+    font-size: 2vmin;
+}
+.sideBar{
+    background-color: var(--bgAlt);
+    align-self: left;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 175px;
+    left: 0;
+    padding-right: 10px;
+
+}
+.sideBar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--onBG);
+    display: block;
+    background-color: var(--bgAlt);
+    border-radius: 25px;
+}
+.sideBar a:hover{
+    color: var(--onBG);
+    background-color: var(--primaryAlt);
+}
+.header{
+    
+    background-color: var(--bgAlt);
+    align-self: top;
+    height: 160px;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    padding-bottom: 45px;
+
+}
+.main{
+    padding-left: 20px;
+    padding-right: 130px;
+    background-color: var(--bg);
+    align-self: top;
+    height: 100%;
+    width: calc(100vw - 450px);
+    position: fixed;
+    z-index: 3;
+    top: 190px;
+    left: 285px;
+    border-radius: 25px;
+}
+.main p:hover{
+    background-color: var(--primary);
+    border-radius: 25px;
+}
+.main p{
+    padding-left: 25px;
+}
+.main a{
+    color: var(--onBG);
+}
+.main a:hover{
+    color:white;
+}
+.buttonLink a{
+    padding: 6px 16px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--onBG);
+    background-color: var(--bgAlt);
+    align-self: center;
+    border-radius: 25px;
+}
+.buttonLink a:hover{
+    color: var(--onBG);
+    background-color: var(--primaryAlt);
+}
+.mainBorder{
+    background-color: var(--primaryAlt);
+    height: 100%;
+    width: calc(100vw - 265px);
+    position: fixed;
+    z-index: 1;
+    top: 175px;
+    left: 270px;
+    border-radius: 40px;
+
+}
