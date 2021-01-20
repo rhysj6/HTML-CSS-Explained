@@ -17,7 +17,7 @@ h1{
     color: var(--onBG);
 }
 h2{
-    font-size: 3vmin;
+    font-size: 2.4vmin;
     color: var(--onBG);
 }
 h1, h2, h3, h4, h5, h6 {
@@ -57,6 +57,7 @@ p{
     display: block;
     background-color: var(--bgAlt);
     border-radius: 25px;
+    font-weight: 500;
 }
 .sideBar a:hover{
     color: var(--onBG);
@@ -77,7 +78,7 @@ p{
 }
 .main{
     padding-left: 20px;
-    padding-right: 130px;
+    padding-right: 200px;
     background-color: var(--bg);
     align-self: top;
     height: 100%;
@@ -88,11 +89,11 @@ p{
     left: 285px;
     border-radius: 25px;
 }
-.main h1:hover, p:hover{
-    background-color: var(--primary);
+.main h1:hover, h2:hover, p:hover{
+    background-color: var(--primaryAlt);
     border-radius: 25px;
 }
-.main h1{
+.main h1, h2{
     padding-left: 20px; ;
 }
 .main p{
@@ -120,7 +121,7 @@ p{
 .mainBorder{
     background-color: var(--primaryAlt);
     height: 100%;
-    width: calc(100vw - 265px);
+    width: calc(100vw - 200px);
     position: fixed;
     z-index: 1;
     top: 175px;
