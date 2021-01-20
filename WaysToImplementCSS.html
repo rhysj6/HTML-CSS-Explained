@@ -23,19 +23,34 @@
             <!-- This is the main body of the page-->
             <h1>What different ways of implementing CSS are there?</h1>
             <p>There are three key different ways to implement CSS, these are: in-line, internal and external.</p>
+
             <h1>In-Line CSS</h1>
             <p>In-Line CSS is used to change the CSS properties within the line of a HTML element. For example you could make text 
                 <b style="color: aqua;">C</b><b style="color: cadetblue;">O</b><b style="color: coral;">L</b><b style="color: cadetblue;">O</b><b style="color:darkorange;">U</b><b style="color: fuchsia;">R</b><b style="color:hotpink;">F</b><b style="color:darkorange;">U</b><b style="color: coral;">L</b>
                  without having to set a class and then changing the CSS elsewhere.</p>
             <h2>Advantages to using In-Line CSS</h2>
             <p>There are two key advantages to using In-Line CSS. These are: It's easy to change formatting for one element much easier than other implementation methods, The styling is right next to the element so it makes it easy to change it.</p>
-            <h2>Disadvantages to using In-Line CSS</h2>
+            <h2>Disadvantage to using In-Line CSS</h2>
             <p>There is one significant disadvantage of just using In-Line and that is that if you're using the same styling for multiple elements then it is best to use other implementation elements with classes.</p>
 
             <h1>Internal CSS</h1>
             <p>Internal CSS is where a tag is used to define an area exclusively for CSS within the html file so it can be used to define stylings for different tags or classes.</p>
             <h2>Advantages of using internal CSS</h2>
-            <p>It can make it a lot easier to define styling that apply for the whole page.</p>
+            <p>It can make it a lot easier to define styling that apply for the whole page. 
+                Another advantage is that, unlike external CSS, when loading the webpage the browser doesn't then need to request the CSS file which will then reduce loading times.</p>
+            <h2>Disadvantages of Internal CSS</h2>
+            <p>While it is much easier to define styling for a whole file using internal makes it a lot harder for defining a style for a whole website especially if it has a consistent theme. 
+                Another disadvantage is that it makes the HTML file a lot longer and untidy.</p>
+            
+            <h1>External CSS</h1>
+            <p>External CSS is where there is a separate file containing all of the styling and that file is then referenced in the HTML file.</p>
+            <h2>Advantages of using External CSS</h2>
+            <p>There are several key advantages to external CSS mainly that it's easy to create a unified theme among webpages.
+                 Another advantage is that all of the styling is separated in a different file so it is more organised.</p>
+            <h2>Disadvantages of using External CSS</h2>
+            <p>There are 2 disadvantages of External CSS. 
+                The main disadvantage is that when loading the webpage the browser needs to request the CSS file which will then increase loading times.
+                The other disadvantage is that it's more difficult to change individual elements.</p>
 
         </div>
     </body>
