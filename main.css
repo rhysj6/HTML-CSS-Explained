@@ -3,7 +3,7 @@
     --bgAlt:#191919;
     --primary:#2a008d8a;
     --primaryAlt:#2a008d;
-    --onBG:rgb(220, 220, 220);
+    --textColor:rgb(220, 220, 220);
     
 
 }
@@ -14,26 +14,26 @@ body{
 }
 h1{
     font-size: 3.4vmin;
-    color: var(--onBG);
+    color: var(--textColor);
 }
 h2{
     font-size: 2.4vmin;
-    color: var(--onBG);
+    color: var(--textColor);
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
    }
 .title{
     text-align: center;
-    color: var(--onBG);
+    color: var(--textColor);
 }
 .siteTitle{
     padding-left: 1vmin;
     text-align: left;
-    color: var(--onBG);
+    color: var(--textColor);
 }
 p{
-    color: var(--onBG);
+    color: var(--textColor);
     overflow-wrap: normal;
     font-size: 2vmin;
 }
@@ -53,14 +53,14 @@ p{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: var(--onBG);
+    color: var(--textColor);
     display: block;
     background-color: var(--bgAlt);
     border-radius: 25px;
     font-weight: 500;
 }
 .sideBar a:hover{
-    color: var(--onBG);
+    color: var(--textColor);
     background-color: var(--primaryAlt);
 }
 .header{
@@ -100,7 +100,7 @@ p{
     padding-left: 25px;
 }
 .main a{
-    color: var(--onBG);
+    color: var(--textColor);
 }
 .main a:hover{
     color:white;
@@ -109,13 +109,13 @@ p{
     padding: 6px 16px 6px 16px;
     text-decoration: none;
     font-size: 25px;
-    color: var(--onBG);
+    color: var(--textColor);
     background-color: var(--bgAlt);
     align-self: center;
     border-radius: 25px;
 }
 .buttonLink a:hover{
-    color: var(--onBG);
+    color: var(--textColor);
     background-color: var(--primaryAlt);
 }
 .mainBorder{
